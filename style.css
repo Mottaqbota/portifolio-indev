@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: #201b2c;
+}
+
+li {
+    list-style: none;
+}
+
+.logo {
+    font-family: Roboto Mono;
+    color: #77ffc0;
+    font-size: 100px;
+}
+
+.header {
+    font-size: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.nav-botoes {
+    font-family: Figtree;
+    display: flex;
+    gap: 7.5vh;
+}
+
+.botoes-nav {
+    color: #77ffc0;
+
+}
+
+
+
+
+
+
+
+
+
+.principal-botao {
+    font-size: 100px;
+    width: 100px;
+    height: 100px;
+}
